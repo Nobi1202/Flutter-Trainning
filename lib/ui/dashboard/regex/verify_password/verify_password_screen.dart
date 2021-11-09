@@ -60,7 +60,7 @@ class MyCustomFormState extends State<MyCustomForm> {
               ),
                 textAlign: TextAlign.center,
               // The validator receives the text that the user has entered.
-                validator: (str) => Validator.validateEmail(str),
+                validator: (str) => Validator.validatePassWord(str),
             ),
           ),
           const Spacer(),
